@@ -63,7 +63,8 @@ origin = https://github.com/TheSpaghettiDetective/moonraker-obico.git
 env = /home/pi/moonraker-obico/../moonraker-obico-env/bin/python
 requirements = requirements.txt
 install_script = install.sh
-managed_services = moonraker-obico
+managed_services = 
+	moonraker-obico
 
 [spoolman]
 server = http://192.168.1.95:7912
