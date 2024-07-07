@@ -28,6 +28,20 @@ subscriptions =
 
 [octoprint_compat]
 
+[webcam Bed_Cam]
+location = bed cam
+icon = mdiRadiatorDisabled
+enabled = True
+service = mjpegstreamer
+target_fps = 15
+target_fps_idle = 5
+stream_url = /webcam/?action=stream
+snapshot_url = /webcam/?action=snapshot
+flip_horizontal = False
+flip_vertical = False
+rotation = 0
+aspect_ratio = 4:3
+
 [update_manager]
 channel = dev
 refresh_interval = 168
